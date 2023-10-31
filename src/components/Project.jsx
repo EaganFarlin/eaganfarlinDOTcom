@@ -3,24 +3,26 @@ import React from "react";
 const Project = ({ name, url, githublink, screenshoturi }) => {
   return (
     <div className="mb-12">
-      <div className="flex">
+      <div className="md:flex">
         <h3 className="mr-1 text-2xl">{name}</h3>
-        <a href={url}>
-          <img
-            className="w-8"
-            src="/assets/icons/link-circle.svg"
-            target="_blank"
-            rel="noopener noreferrer"
-          />
-        </a>
-        <a href={githublink}>
-          <img
-            className="w-8"
-            src="/assets/icons/github.svg"
-            target="_blank"
-            rel="noopener noreferrer"
-          />
-        </a>
+        <div className="flex">
+          <a href={url}>
+            <img
+              className="w-12 md:w-8"
+              src="/assets/icons/link-circle.svg"
+              target="_blank"
+              rel="noopener noreferrer"
+            />
+          </a>
+          <a href={githublink}>
+            <img
+              className="w-12 md:w-8"
+              src="/assets/icons/github.svg"
+              target="_blank"
+              rel="noopener noreferrer"
+            />
+          </a>
+        </div>
       </div>
       <img className="mt-4" src={screenshoturi} />
     </div>
