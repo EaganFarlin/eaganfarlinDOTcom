@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <div className="min-h-screen px-[20vw] py-8 text-gray-50 bg-gray-950">
+    <div className="min-h-screen px-8 md:px-[20vw] py-8 text-gray-50 bg-gray-950">
       <Navbar />
       <Header />
       <Information />
