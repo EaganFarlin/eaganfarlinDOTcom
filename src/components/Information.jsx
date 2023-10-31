@@ -2,7 +2,7 @@ import React from "react";
 
 const Information = () => {
   return (
-    <div className="mb-20 text-xl">
+    <div className="mb-20 text-xl leading-loose md:leading-relaxed">
       <p className="mb-8">
         My journey as a developer began at the tender age of 10, with block
         coding becoming my playground. It was a world of colorful blocks that
