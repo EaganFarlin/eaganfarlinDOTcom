@@ -1,6 +1,7 @@
-import React from "react";
-
-const Project = ({ name, url, githublink, screenshoturi }) => {
+const Project = (
+  { name, url, githublink, screenshoturi },
+  { name: string, url: string, githublink: string, screenshoturi: string }
+) => {
   return (
     <div className="mb-12">
       <div className="md:flex">
