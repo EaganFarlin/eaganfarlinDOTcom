@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={montserrat.className}>
-        <div className="px-8 md:px-[20vw] py-8 text-gray-50 bg-gray-950">
+        <div className="px-8 md:px-[20vw] py-14 text-gray-50 bg-gray-950">
           <Navbar />
           {children}
           <Footer />
