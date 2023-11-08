@@ -13,7 +13,7 @@ const Navbar = () => {
   const pathname = usePathname();
 
   return (
-    <nav className="flex flex-wrap mt-6 mb-14">
+    <nav className="flex flex-wrap mb-14">
       {localLinks.map((link) => {
         return (
           <Link
