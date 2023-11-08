@@ -62,7 +62,7 @@ const Projects = () => {
                 </a>
               </h2>
             </div>
-            <img className="mt-4" src={project.screenshoturi} />
+            <img className="mt-4" src={project.screenshoturi} alt="" />
           </div>
         );
       })}

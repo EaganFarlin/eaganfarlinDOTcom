@@ -29,12 +29,12 @@ const Home = () => {
           up the enigmatic arts of machine learning and AI, the thrill of app
           development, and the challenges of crafting immersive games. Late
           nights became my sanctuary, where I poured my heart, my soul, and my
-          passion into my projects. The sun would rise, and I'd lay down,
+          passion into my projects. The sun would rise, and I{"'"}d lay down,
           content, only to be jolted awake at 7 am finding a bug in my website.
-          And so, I'd spring out of bed, unsatisfied, knowing that I couldn't
-          rest until the job was complete. My journey, a tapestry of learning,
-          creating, and persevering, has been a beautiful testament to the
-          ever-evolving world of technology.
+          And so, I{"'"}d spring out of bed, unsatisfied, knowing that I couldn
+          {"'"}t rest until the job was complete. My journey, a tapestry of
+          learning, creating, and persevering, has been a beautiful testament to
+          the ever-evolving world of technology.
         </p>
       </div>
     </div>

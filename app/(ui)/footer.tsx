@@ -6,7 +6,7 @@ const Footer = () => {
         <a className="underline" href="mailto:farlineagan@gmail.com">
           farlineagan@gmail.com
         </a>{" "}
-        and let's make it happen!
+        and let{"'"}s make it happen!
       </p>
 
       <p className="mb-2">
