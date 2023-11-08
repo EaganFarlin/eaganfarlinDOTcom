@@ -37,16 +37,28 @@ const Projects = () => {
     <div className="text-lg">
       {projects.map((project) => {
         return (
-          <div className="mb-12">
+          <div key={project.name} className="mb-12">
             <div className="md:flex md:items-center">
               <h2 className="mr-1 text-xl">
                 <a
-                  className="underline hover:no-underline"
+                  className="flex items-baseline mr-6"
                   href={project.url}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  {project.name} &#x2197;
+                  <p className="mr-1">{project.name}</p>
+                  <svg
+                    width="12"
+                    height="12"
+                    viewBox="0 0 12 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z"
+                      fill="currentColor"
+                    ></path>
+                  </svg>
                 </a>
               </h2>
             </div>
