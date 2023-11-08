@@ -21,6 +21,7 @@ const Navbar = () => {
             href={link.href}
             className={clsx("mr-6 text-lg", {
               underline: pathname === link.href,
+              "text-gray-500": pathname !== link.href,
             })}
           >
             <p>{link.name}</p>
