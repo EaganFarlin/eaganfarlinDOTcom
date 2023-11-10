@@ -3,7 +3,7 @@ const Home = () => {
     <div>
       <div className="my-6">
         <h1 className="text-2xl font-bold">Eagan Farlin</h1>
-        <small className="text-lg text-gray-500">developer</small>
+        <small className="text-lg">developer</small>
       </div>
       <div className="text-lg leading-loose md:leading-relaxed">
         <p className="mb-8">

@@ -20,7 +20,7 @@ const Navbar = () => {
             key={link.name}
             href={link.href}
             className={clsx("mr-6 text-lg", {
-              "text-gray-500": pathname !== link.href,
+              "text-gray-50": pathname === link.href,
             })}
           >
             <p>{link.name}</p>
