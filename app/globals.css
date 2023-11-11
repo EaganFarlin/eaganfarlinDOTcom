@@ -8,4 +8,10 @@
 a {
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity));
+  transition: 1000ms;
+}
+
+a:hover {
+  color: rgb(249 250 251 / var(--tw-text-opacity));
+  transition: 1000ms;
 }
