@@ -27,15 +27,15 @@ const Home = () => {
           applications.
         </p>
         <p className="mb-8">
-          However, my journey wasn't confined to a single dimension. Along the
-          way, I absorbed the mysterious arts of machine learning and AI,
+          However, my journey wasn{"'"}t confined to a single dimension. Along
+          the way, I absorbed the mysterious arts of machine learning and AI,
           relished the thrill of app development, and tackled the challenges of
           crafting immersive games. Late nights transformed into my sanctuary,
           where I invested my heart, soul, and passion into my projects. As the
-          sun would rise, I'd find contentment, only to be abruptly awakened at
-          7 am by the discovery of a bug in my website. Driven by an unsatisfied
-          determination, I'd spring out of bed, recognizing that rest was
-          elusive until the job was done.
+          sun would rise, I{"'"}d find contentment, only to be abruptly awakened
+          at 7 am by the discovery of a bug in my website. Driven by an
+          unsatisfied determination, I{"'"}d spring out of bed, recognizing that
+          rest was elusive until the job was done.
         </p>
         <p className="mb-8">
           My journey, a mosaic of learning, creating, and persevering, stands as
