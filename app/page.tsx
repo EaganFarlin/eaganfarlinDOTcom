@@ -7,39 +7,32 @@ const Home = () => {
       </div>
       <div className="text-lg leading-loose md:leading-relaxed">
         <p className="mb-8">
-          Embarking on my odyssey as a developer commenced at the youthful age
-          of 10, navigating the intricacies of block coding that transformed
-          into my virtual playground. The vibrant spectrum of blocks ignited my
-          creativity, gradually instilling the logical foundations of the
-          digital landscape. By 11, I stepped into the expansive domain of web
-          development, honing the craft of constructing web pages through the
-          triumvirate of HTML, CSS, and JavaScript. Those early days were a
-          tapestry of experimentation, each line of code evolving my digital
-          canvases.
+          When I turned 11, I took my first steps into the world of web
+          development by grasping the basics of HTML, CSS, and JavaScript.
+          Driven by sheer determination and a true passion for crafting things
+          on the internet, I would often find myself finishing up my newly built
+          website and settling into bed, ready to embrace a night's rest as the
+          sun began to rise. However, this initial sense of accomplishment would
+          quickly dissipate if I stumbled upon something unsatisfactory on my
+          website. Without hesitation, I would spring out of bed, fueled by a
+          relentless pursuit of improvement, rushing back to my laptop to
+          address any imperfection that hindered my contentment. As I delved
+          deeper into the realm of web development, I expanded my knowledge to
+          include libraries like Bootstrap and jQuery, enhancing my skills in
+          web design. Along this journey, my appetite for building grew, leading
+          me to explore diverse areas such as Game Development, App Development,
+          and Machine Learning.
         </p>
         <p className="mb-8">
-          As I delved deeper, I eagerly harnessed the potential of libraries
-          such as Bootstrap and jQuery, invaluable tools that facilitated a
-          smoother and more versatile web development journey. Yet, my
-          insatiable curiosity propelled me further. With a sense of marvel, I
-          embraced cutting-edge libraries like Tailwind and immersed myself in
-          the dynamic world of React, sculpting responsive and interactive web
-          applications.
-        </p>
-        <p className="mb-8">
-          However, my journey wasn{"'"}t confined to a single dimension. Along
-          the way, I absorbed the mysterious arts of machine learning and AI,
-          relished the thrill of app development, and tackled the challenges of
-          crafting immersive games. Late nights transformed into my sanctuary,
-          where I invested my heart, soul, and passion into my projects. As the
-          sun would rise, I{"'"}d find contentment, only to be abruptly awakened
-          at 7 am by the discovery of a bug in my website. Driven by an
-          unsatisfied determination, I{"'"}d spring out of bed, recognizing that
-          rest was elusive until the job was done.
-        </p>
-        <p className="mb-8">
-          My journey, a mosaic of learning, creating, and persevering, stands as
-          a beautiful testament to the ever-evolving realm of technology.
+          In my quest for continuous improvement, I gradually mastered
+          additional components of web development, acquiring proficiency in
+          tools like Tailwind CSS, React.js, and Next.js. These new skills
+          became essential pieces that I added to my ever-growing toolkit. Each
+          challenge I faced and overcame only fueled my desire to create better
+          and more innovative projects. The combination of curiosity,
+          dedication, and a thirst for knowledge has propelled me beyond the
+          basics, opening doors to exciting possibilities in the vast and
+          dynamic world of technology.
         </p>
       </div>
     </div>
