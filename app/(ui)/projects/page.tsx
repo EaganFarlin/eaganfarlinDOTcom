@@ -14,9 +14,9 @@ const Projects = () => {
         return (
           <div
             key={project.name}
-            className="border-2 border-gray-900 rounded text-lg hover:border-gray-500 hover:scale-105 duration-500"
+            className="border-2 border-gray-900 rounded text-lg scale-100 hover:border-gray-500 hover:scale-105 duration-500"
           >
-            <a href={project.url} target="_blank" rel="noopener noreferrer">
+            <a href={project.uri} target="_blank" rel="noopener noreferrer">
               <div className="p-4">
                 <div className="flex items-baseline mr-6">
                   <span className="mr-1 text-xl">{project.name}</span>
@@ -33,8 +33,22 @@ const Projects = () => {
                     ></path>
                   </svg>
                 </div>
-                <img className="mt-4" src={project.screenshoturi} alt="" />
+                <img
+                  className="mt-4"
+                  src={project.screenshoturi}
+                  alt="project-screenshot"
+                />
               </div>
+            </a>
+            <a
+              href={project.githuburi}
+              className="absolute top-2 md:top-4 right-4"
+            >
+              <img
+                src="/icons/github.svg"
+                alt="github-logo"
+                className="w-10 md:w-8"
+              />
             </a>
           </div>
         );
