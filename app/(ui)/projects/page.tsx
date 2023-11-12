@@ -40,18 +40,33 @@ const Projects = () => {
                 />
               </div>
             </a>
-            <a
-              href={project.githuburi}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="absolute top-2 md:top-4 right-4"
-            >
-              <img
-                src="/icons/github.svg"
-                alt="github-logo"
-                className="w-10 md:w-8"
-              />
-            </a>
+            <div className="flex absolute top-2 md:top-4 right-4">
+              {project.youtubeuri !== undefined && (
+                <a
+                  href={project.githuburi}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mr-1"
+                >
+                  <img
+                    src="/icons/youtube.svg"
+                    alt="youtube-logo"
+                    className="w-10 md:w-8"
+                  />
+                </a>
+              )}
+              <a
+                href={project.githuburi}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="/icons/github.svg"
+                  alt="github-logo"
+                  className="w-10 md:w-8"
+                />
+              </a>
+            </div>
           </div>
         );
       })}

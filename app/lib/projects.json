@@ -9,12 +9,14 @@
     {
       "name": "RT Clock UI",
       "uri": "https://time.eaganfarlin.com/",
+      "youtubeuri": "https://www.youtube.com/watch?v=1rTm7uVcgPU",
       "githuburi": "https://github.com/EaganFarlin/rt-clock-ui",
       "screenshoturi": "/project-ss/clock-ui.png"
     },
     {
       "name": "Math Quiz",
       "uri": "https://mathquiz.eaganfarlin.com/",
+      "youtubeuri": "https://www.youtube.com/watch?v=uaAO9vOTlqA",
       "githuburi": "https://github.com/EaganFarlin/react-math-quiz",
       "screenshoturi": "/project-ss/math-quiz.png"
     },
