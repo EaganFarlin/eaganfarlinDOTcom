@@ -4,10 +4,10 @@ const FooterLink = ({ label, refURI }: { label: string; refURI: string }) => {
   return (
     <p className="mb-2">
       <a
-        className="flex items-baseline mr-6 text-lg"
         href={refURI}
         target="_blank"
         rel="noopener noreferrer"
+        className="flex items-baseline text-lg"
       >
         <span className="mr-1">{label}</span>
         <svg
