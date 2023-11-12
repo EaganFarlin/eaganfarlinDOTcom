@@ -42,6 +42,8 @@ const Projects = () => {
             </a>
             <a
               href={project.githuburi}
+              target="_blank"
+              rel="noopener noreferrer"
               className="absolute top-2 md:top-4 right-4"
             >
               <img
