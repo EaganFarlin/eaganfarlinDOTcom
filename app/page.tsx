@@ -11,10 +11,10 @@ const Home = () => {
           development by grasping the basics of HTML, CSS, and JavaScript.
           Driven by sheer determination and a true passion for crafting things
           on the internet, I would often find myself finishing up my newly built
-          website and settling into bed, ready to embrace a night's rest as the
-          sun began to rise. However, this initial sense of accomplishment would
-          quickly dissipate if I stumbled upon something unsatisfactory on my
-          website. Without hesitation, I would spring out of bed, fueled by a
+          website and settling into bed, ready to embrace a night{"'"}s rest as
+          the sun began to rise. However, this initial sense of accomplishment
+          would quickly dissipate if I stumbled upon something unsatisfactory on
+          my website. Without hesitation, I would spring out of bed, fueled by a
           relentless pursuit of improvement, rushing back to my laptop to
           address any imperfection that hindered my contentment. As I delved
           deeper into the realm of web development, I expanded my knowledge to
