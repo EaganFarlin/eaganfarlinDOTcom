@@ -43,7 +43,7 @@ const Projects = () => {
             <div className="flex absolute top-2 md:top-4 right-4">
               {project.youtubeuri !== undefined && (
                 <a
-                  href={project.githuburi}
+                  href={project.youtubeuri}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mr-1"
