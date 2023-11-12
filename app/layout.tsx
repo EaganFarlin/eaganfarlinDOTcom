@@ -19,12 +19,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={archivo.className}>
-        <div className="px-8 md:px-[20vw] py-14 text-gray-50 bg-gray-950">
-          <Navbar />
-          {children}
-          <Footer />
-        </div>
+      <body
+        className={`${archivo.className} px-8 md:px-[20vw] py-14 text-gray-50 bg-gray-950`}
+      >
+        <Navbar />
+        {children}
+        <Footer />
       </body>
     </html>
   );
