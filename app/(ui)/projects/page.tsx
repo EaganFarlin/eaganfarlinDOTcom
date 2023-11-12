@@ -1,3 +1,4 @@
+import clsx from "clsx";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -8,19 +9,17 @@ const projects = require("@/app/lib/projects.json");
 
 const Projects = () => {
   return (
-    <div className="text-lg">
-      {projects["Projects"].map((project: any) => {
+    <div className="grid md:grid-cols-2 2k:grid-cols-3 gap-4">
+      {projects["Projects"].map((project: any, index: number) => {
         return (
-          <div key={project.name} className="mb-12">
-            <div className="md:flex md:items-center">
-              <h2 className="mr-1 text-xl">
-                <a
-                  className="flex items-baseline mr-6"
-                  href={project.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <p className="mr-1">{project.name}</p>
+          <div
+            key={project.name}
+            className="border-2 border-gray-900 rounded text-lg hover:border-gray-500 hover:scale-105 duration-500"
+          >
+            <a href={project.url} target="_blank" rel="noopener noreferrer">
+              <div className="p-4">
+                <div className="flex items-baseline mr-6">
+                  <span className="mr-1 text-xl">{project.name}</span>
                   <svg
                     width="12"
                     height="12"
@@ -33,10 +32,10 @@ const Projects = () => {
                       fill="currentColor"
                     ></path>
                   </svg>
-                </a>
-              </h2>
-            </div>
-            <img className="mt-4" src={project.screenshoturi} alt="" />
+                </div>
+                <img className="mt-4" src={project.screenshoturi} alt="" />
+              </div>
+            </a>
           </div>
         );
       })}
