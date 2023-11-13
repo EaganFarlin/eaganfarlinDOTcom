@@ -26,7 +26,7 @@ function Project({ project }: { project: any }) {
           <img
             className="mt-4"
             src={project.screenshoturi}
-            alt="project-screenshot"
+            alt={`screenshot of ${project.name}`}
           />
         </div>
       </a>
