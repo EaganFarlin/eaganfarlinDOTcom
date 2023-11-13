@@ -11,6 +11,6 @@ export async function getProjects() {
     return projects;
   } catch (error) {
     console.error("Database Error:", error);
-    throw new Error("Failed to fetch the latest invoices.");
+    throw new Error("Failed to fetch projects.");
   }
 }
