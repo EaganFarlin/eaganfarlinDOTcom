@@ -1,6 +1,6 @@
-import FooterLink from "./footer-link";
+import FooterLink from "@/app/ui/footer-link";
 
-const Footer = () => {
+export default function Footer() {
   return (
     <footer className="flex flex-col mt-16 text-lg">
       <p className="mb-6">
@@ -20,6 +20,4 @@ const Footer = () => {
       <p>Made with Next.js 14</p>
     </footer>
   );
-};
-
-export default Footer;
+}

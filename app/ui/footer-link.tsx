@@ -1,6 +1,12 @@
 import React from "react";
 
-const FooterLink = ({ label, refURI }: { label: string; refURI: string }) => {
+export default function FooterLink({
+  label,
+  refURI,
+}: {
+  label: string;
+  refURI: string;
+}) {
   return (
     <p className="mb-2">
       <a
@@ -25,6 +31,4 @@ const FooterLink = ({ label, refURI }: { label: string; refURI: string }) => {
       </a>
     </p>
   );
-};
-
-export default FooterLink;
+}
