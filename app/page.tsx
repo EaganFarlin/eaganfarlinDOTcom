@@ -19,9 +19,9 @@ export default function Home() {
           of technology.
         </p>
         <p className="mb-8">
-          Success is within reach {"–"} don't let it slip away! As a dedicated
-          professional available for hire and eager to make a difference, I
-          invite you to take the next step.{" "}
+          Success is within reach {"–"} don{"'"}t let it slip away! As a
+          dedicated professional available for hire and eager to make a
+          difference, I invite you to take the next step.{" "}
           <a
             href="mailto:farlineagan@gmail.com"
             className="underline hover:no-underline"
