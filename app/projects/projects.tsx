@@ -32,7 +32,7 @@ function Project({ project }: { project: any }) {
           />
         </div>
       </a>
-      <div className="flex absolute top-2 md:top-4 right-4">
+      <div className="flex items-center absolute top-3 md:top-4 right-4">
         {project.youtubeuri !== undefined && (
           <a
             href={project.youtubeuri}
@@ -40,11 +40,11 @@ function Project({ project }: { project: any }) {
             rel="noopener noreferrer"
             className="mr-1"
           >
-            <FontAwesomeIcon icon={faYoutube} className="w-10 md:w-8 mr-1" />
+            <FontAwesomeIcon icon={faYoutube} className="w-9 md:w-7 mr-1" />
           </a>
         )}
         <a href={project.githuburi} target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faGithub} className="w-10 md:w-8" />
+          <FontAwesomeIcon icon={faGithub} className="w-8 md:w-6" />
         </a>
       </div>
     </div>
