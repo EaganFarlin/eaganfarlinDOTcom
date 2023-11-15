@@ -40,11 +40,11 @@ function Project({ project }: { project: any }) {
             rel="noopener noreferrer"
             className="mr-1"
           >
-            <FontAwesomeIcon icon={faYoutube} className="w-9 md:w-7 mr-1" />
+            <FontAwesomeIcon icon={faYoutube} className="w-10 md:w-8 mr-1" />
           </a>
         )}
         <a href={project.githuburi} target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={faGithub} className="w-8 md:w-6" />
+          <FontAwesomeIcon icon={faGithub} className="w-9 md:w-7" />
         </a>
       </div>
     </div>
