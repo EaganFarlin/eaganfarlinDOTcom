@@ -1,3 +1,5 @@
+import { faGithub, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { getProjects } from "@/app/lib/projects/projects-data";
 
 function Project({ project }: { project: any }) {
@@ -38,19 +40,11 @@ function Project({ project }: { project: any }) {
             rel="noopener noreferrer"
             className="mr-1"
           >
-            <img
-              src="/icons/youtube.svg"
-              alt="youtube-logo"
-              className="w-10 md:w-8"
-            />
+            <FontAwesomeIcon icon={faYoutube} className="w-10 md:w-8 mr-1" />
           </a>
         )}
         <a href={project.githuburi} target="_blank" rel="noopener noreferrer">
-          <img
-            src="/icons/github.svg"
-            alt="github-logo"
-            className="w-10 md:w-8"
-          />
+          <FontAwesomeIcon icon={faGithub} className="w-10 md:w-8" />
         </a>
       </div>
     </div>

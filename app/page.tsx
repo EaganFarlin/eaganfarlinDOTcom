@@ -1,42 +1,49 @@
-const Home = () => {
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+
+import HeaderButton from "./header-button";
+
+export default function Home() {
   return (
     <div>
-      <div className="my-6">
-        <h1 className="text-2xl font-bold">Eagan Farlin</h1>
-        <small className="text-lg">developer</small>
-      </div>
+      <h1 className="my-6 text-2xl font-bold">Eagan Farlin</h1>
       <div className="text-lg leading-loose md:leading-relaxed">
         <p className="mb-8">
-          When I turned 11, I took my first steps into the world of web
-          development by grasping the basics of HTML, CSS, and JavaScript.
-          Driven by sheer determination and a true passion for crafting things
-          on the internet, I would often find myself finishing up my newly built
-          website and settling into bed, ready to embrace a night{"'"}s rest as
-          the sun began to rise. However, this initial sense of accomplishment
-          would quickly dissipate if I stumbled upon something unsatisfactory on
-          my website. Without hesitation, I would spring out of bed, fueled by a
-          relentless pursuit of improvement, rushing back to my laptop to
-          address any imperfection that hindered my contentment. As I delved
-          deeper into the realm of web development, I expanded my knowledge to
-          include libraries like Bootstrap and jQuery, enhancing my skills in
-          web design. Along this journey, my appetite for building grew, leading
-          me to explore diverse areas such as Game Development, App Development,
-          and Machine Learning.
+          Web developer with half a decade of experience. Grounded in
+          cutting-edge technologies and frameworks, including Tailwind CSS,
+          React.js, and Next.js 14. These tools serve as the cornerstone of my
+          proficiency, empowering me to create and optimize projects with
+          precision and innovation. My commitment to excellence is reflected in
+          my proactive approach to identifying and swiftly addressing any
+          imperfections. With a dynamic problem-solving mindset, I am
+          well-equipped to contribute to and navigate the ever-evolving terrain
+          of technology.
         </p>
         <p className="mb-8">
-          In my quest for continuous improvement, I gradually mastered
-          additional components of web development, acquiring proficiency in
-          tools like Tailwind CSS, React.js, and Next.js. These new skills
-          became essential pieces that I added to my ever-growing toolkit. Each
-          challenge I faced and overcame only fueled my desire to create better
-          and more innovative projects. The combination of curiosity,
-          dedication, and a thirst for knowledge has propelled me beyond the
-          basics, opening doors to exciting possibilities in the vast and
-          dynamic world of technology.
+          Success is within reach {"–"} don't let it slip away! As a dedicated
+          professional available for hire and eager to make a difference, I
+          invite you to take the next step.{" "}
+          <a
+            href="mailto:farlineagan@gmail.com"
+            className="underline hover:no-underline"
+          >
+            Email me
+          </a>{" "}
+          to discuss how I can contribute to your success.
         </p>
+      </div>
+      <div className="flex flex-wrap">
+        <HeaderButton
+          faIcon={faLinkedin}
+          refURI="https://www.linkedin.com/in/eagan-farlin-b6848429b/"
+        >
+          LinkedIn
+        </HeaderButton>
+        <span className="w-2"></span>
+        <HeaderButton faIcon={faGithub} refURI="https://github.com/EaganFarlin">
+          Github
+        </HeaderButton>
+        <span className="w-2"></span>
       </div>
     </div>
   );
-};
-
-export default Home;
+}

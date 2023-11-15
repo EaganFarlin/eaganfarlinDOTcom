@@ -1,10 +1,10 @@
 import React from "react";
 
 export default function FooterLink({
-  label,
+  children,
   refURI,
 }: {
-  label: string;
+  children: React.ReactNode;
   refURI: string;
 }) {
   return (
@@ -15,7 +15,7 @@ export default function FooterLink({
         rel="noopener noreferrer"
         className="flex items-baseline text-lg"
       >
-        <span className="mr-1">{label}</span>
+        <span className="mr-1">{children}</span>
         <svg
           width="12"
           height="12"

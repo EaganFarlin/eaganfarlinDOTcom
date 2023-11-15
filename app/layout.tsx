@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import { Archivo } from "next/font/google";
+import { config } from "@fortawesome/fontawesome-svg-core";
+config.autoAddCss = false;
 import "./globals.css";
 
-import Navbar from "@/app/ui/navbar";
-import Footer from "@/app/ui/footer";
+import Navbar from "@/app/navbar";
+import Footer from "@/app/footer";
 
 const archivo = Archivo({ subsets: ["latin"] });
 

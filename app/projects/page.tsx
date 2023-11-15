@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { ProjectsSkeleton } from "@/app/ui/skeletons";
+import { ProjectsSkeleton } from "@/app/skeletons";
 import { Suspense } from "react";
 import Projects from "@/app/projects/projects";
 
