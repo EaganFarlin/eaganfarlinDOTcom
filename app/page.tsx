@@ -12,11 +12,11 @@ export default function Home() {
           cutting-edge technologies and frameworks, including Tailwind CSS,
           React.js, and Next.js 14. These tools serve as the cornerstone of my
           proficiency, empowering me to create and optimize projects with
-          precision and innovation. My commitment to excellence is reflected in
-          my proactive approach to identifying and swiftly addressing any
-          imperfections. With a dynamic problem-solving mindset, I am
-          well-equipped to contribute to and navigate the ever-evolving terrain
-          of technology.
+          precision and innovation. My journey has been marked by an unyielding
+          commitment to staying at the forefront of technological advancements,
+          ensuring that every project I undertake reflects the cutting edge.
+          With a dynamic problem-solving mindset, I am well-equipped to
+          contribute to and navigate the ever-evolving terrain of technology.
         </p>
         <p className="mb-8">
           Success is within reach {"–"} don{"'"}t let it slip away! As a
