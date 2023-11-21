@@ -34,7 +34,7 @@ export default function Home() {
       <div className="flex flex-wrap">
         <HeaderButton
           faIcon={faLinkedin}
-          refURI="https://www.linkedin.com/in/eagan-farlin-b6848429b/"
+          refURI="https://www.linkedin.com/in/eagan-farlin"
         >
           LinkedIn
         </HeaderButton>
