@@ -8,6 +8,7 @@ function Project({ project }: { project: any }) {
       key={project.name}
       className="border-2 border-gray-900 rounded text-lg scale-100 hover:border-gray-500 hover:scale-105 duration-500"
     >
+      <h1>{process.cwd()}</h1>
       <a href={project.uri} target="_blank" rel="noopener noreferrer">
         <div className="p-4">
           <div className="flex items-baseline mr-6">
@@ -53,7 +54,6 @@ function Project({ project }: { project: any }) {
 
 export default async function Projects() {
   const projects = await getProjects();
-  console.log(process.cwd());
 
   return (
     <div className="grid md:grid-cols-2 2k:grid-cols-3 gap-4">
