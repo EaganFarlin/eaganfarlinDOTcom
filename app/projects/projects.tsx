@@ -53,6 +53,7 @@ function Project({ project }: { project: any }) {
 
 export default async function Projects() {
   const projects = await getProjects();
+  console.log(process.cwd());
 
   return (
     <div className="grid md:grid-cols-2 2k:grid-cols-3 gap-4">
