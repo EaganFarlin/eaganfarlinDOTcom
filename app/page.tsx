@@ -8,7 +8,7 @@ export default function Home() {
       <h1 className="my-6 text-2xl font-bold">Eagan Farlin</h1>
       <div className="text-lg leading-loose md:leading-relaxed">
         <p className="mb-8">
-          Web developer with half a decade of experience. Grounded in
+          Full-stack developer with half a decade of experience. Grounded in
           cutting-edge technologies and frameworks, including Tailwind CSS,
           React.js, and Next.js 14. These tools serve as the cornerstone of my
           proficiency, empowering me to create and optimize projects with
