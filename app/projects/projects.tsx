@@ -26,7 +26,7 @@ function Project({ project }: { project: any }) {
             </svg>
           </div>
           <img
-            className="mt-4"
+            className="mt-4 rounded-sm"
             src={project.screenshoturi}
             alt={`screenshot of ${project.name}`}
           />

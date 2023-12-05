@@ -1,6 +1,20 @@
 {
   "Projects": [
     {
+      "name": "New York Tymes",
+      "uri": "https://nytymes.eaganfarlin.com/",
+      "youtubeuri": "https://www.youtube.com/watch?v=NackGvjTsLY",
+      "githuburi": "https://github.com/EaganFarlin/nytymes",
+      "screenshoturi": "/project-ss/nytymes.png"
+    },
+    {
+      "name": "Math Quiz",
+      "uri": "https://mathquiz.eaganfarlin.com/",
+      "youtubeuri": "https://www.youtube.com/watch?v=uaAO9vOTlqA",
+      "githuburi": "https://github.com/EaganFarlin/react-math-quiz",
+      "screenshoturi": "/project-ss/math-quiz.png"
+    },
+    {
       "name": "Video List",
       "uri": "https://videolist.eaganfarlin.com/",
       "githuburi": "https://github.com/EaganFarlin/react-video-list",
@@ -12,19 +26,6 @@
       "youtubeuri": "https://www.youtube.com/watch?v=1rTm7uVcgPU",
       "githuburi": "https://github.com/EaganFarlin/rt-clock-ui",
       "screenshoturi": "/project-ss/clock-ui.png"
-    },
-    {
-      "name": "Math Quiz",
-      "uri": "https://mathquiz.eaganfarlin.com/",
-      "youtubeuri": "https://www.youtube.com/watch?v=uaAO9vOTlqA",
-      "githuburi": "https://github.com/EaganFarlin/react-math-quiz",
-      "screenshoturi": "/project-ss/math-quiz.png"
-    },
-    {
-      "name": "Calculator",
-      "uri": "https://calculator.eaganfarlin.com/",
-      "githuburi": "https://github.com/EaganFarlin/calculator",
-      "screenshoturi": "/project-ss/calculator.png"
     }
   ]
 }
